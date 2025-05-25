@@ -32,14 +32,10 @@ for (let i = 0; i < numberArray.length; i ++) {
     
 }
 
-// El reemplazo del array con string
-
 let stArray = ["f00", "Bar", "b@z", "quX", "3ch0"];
 for (let j = 0; j < stringArray.length; j ++) {
     stringArray[j] = stArray[j];
 }
-
-// Falta unir todos los array
 
 let hackText = ["h@ck"];
 
