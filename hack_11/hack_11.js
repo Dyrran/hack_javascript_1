@@ -32,10 +32,20 @@ for (let i = 0; i < numberArray.length; i ++) {
     
 }
 
-// Falta el reemplazo del array con string
+// El reemplazo del array con string
+
+let stArray = ["f00", "Bar", "b@z", "quX", "3ch0"];
+for (let j = 0; j < stringArray.length; j ++) {
+    stringArray[j] = stArray[j];
+}
+
 // Falta unir todos los array
 
-console.log(nbArray)
+let hackText = ["h@ck"];
+
+result = hackText.concat(nbArray, hackText, stringArray, hackText);
+
+console.log(result)
 
 //export result
 module.exports = result;
