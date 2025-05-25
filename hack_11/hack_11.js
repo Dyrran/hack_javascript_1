@@ -45,7 +45,5 @@ let hackText = ["h@ck"];
 
 result = hackText.concat(nbArray, hackText, stringArray, hackText);
 
-console.log(result)
-
 //export result
 module.exports = result;
