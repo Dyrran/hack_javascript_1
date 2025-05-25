@@ -7,6 +7,12 @@
  */
 let result = [];
 
+let i = 1;
+
+while ( i < 6 ) {
+    result.push(i);
+    i ++;
+}
 
 //export result
 module.exports = result;
